@@ -20,13 +20,13 @@ div{
 
 #leftBox{
   float: left;
-  width: 30%;
+  width: 34%;
   position: relative;
 }
 
 #rightBox{
   float: right;
-  width: 60%;
+  width: 66%;
   position: relative;
 }
 
