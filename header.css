@@ -2,3 +2,7 @@ p{
   background-color: #111112;
 
 }
+.arrange-horizontally > * {
+    display: inline-block;
+    text-align: center;
+}
