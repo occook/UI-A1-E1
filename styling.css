@@ -1,3 +1,35 @@
-p{
-  background-color: #111112;
+body{
+  background-color: #b5b8bc;
+  text-align: center;
+}
+
+div{
+  border: 2px solid #5d5c61;
+  margin: 5px;
+  padding: 5px;
+}
+
+#header{
+
+}
+
+#body{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#leftBox{
+  float: left;
+  width: 30%;
+  position: relative;
+}
+
+#rightBox{
+  float: right;
+  width: 60%;
+  position: relative;
+}
+
+#footer{
+
 }
