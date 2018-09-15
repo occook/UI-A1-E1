@@ -9,8 +9,32 @@ div{
   padding: 5px;
 }
 
-#header{
+header{
+  border: 2px solid #5d5c61;
+  margin: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
 
+footer{
+  border: 2px solid #5d5c61;
+  margin: 5px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li {
+  float:left;
+  width: 33%;
+  padding-bottom: 5px;
+}
+
+li a{
+  display: block;
 }
 
 #body{
@@ -28,8 +52,4 @@ div{
   float: right;
   width: 66%;
   position: relative;
-}
-
-#footer{
-
 }
