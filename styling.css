@@ -21,16 +21,22 @@ footer{
   margin: 5px;
   margin-top: 10px;
   padding: 5px;
+  overflow: hidden;
 }
 
 ul{
   list-style-type: none;
+  align-content: flex-start;
 }
 
 li {
   float:left;
   width: 33%;
   padding-bottom: 5px;
+  border-left: solid;
+}
+.first{
+  border-left: none;
 }
 
 li a{
