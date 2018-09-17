@@ -26,13 +26,12 @@ footer{
 
 ul{
   list-style-type: none;
-  align-content: flex-start;
+  width: 99%;
 }
 
 li {
   float:left;
   width: 33%;
-  padding-bottom: 5px;
   border-left: solid;
 }
 .first{
