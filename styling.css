@@ -1,12 +1,14 @@
 body{
   background-color: #b5b8bc;
   text-align: center;
+  background-color: #88e072;
 }
 
 div{
   border: 2px solid #5d5c61;
   margin: 5px;
   padding: 5px;
+  border-radius: 10px;
 }
 
 header{
@@ -14,23 +16,26 @@ header{
   margin: 5px;
   margin-bottom: 10px;
   padding: 5px;
+  border-radius: 10px;
+  background-color: #f7f9fb;
 }
 
 footer{
   border: 2px solid #5d5c61;
   margin: 5px;
-  margin-top: 10px;
-  padding: 5px;
   overflow: hidden;
+  border-radius: 10px;
+  background-color: #f7f9fb;
 }
 
 ul{
   list-style-type: none;
+  text-align: center;
   width: 99%;
+  padding: 0px;
 }
-
-li {
-  float:left;
+li{
+  float: left;
   width: 33%;
   border-left: solid;
 }
@@ -45,16 +50,19 @@ li a{
 #body{
   display: flex;
   flex-wrap: nowrap;
+  background-color: #8fc1e3;
 }
 
 #leftBox{
   float: left;
   width: 34%;
   position: relative;
+  background-color: #f7f9fb;
 }
 
 #rightBox{
   float: right;
   width: 66%;
   position: relative;
+  background-color: #f7f9fb;
 }
