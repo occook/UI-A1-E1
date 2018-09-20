@@ -114,8 +114,9 @@ hr {
 }
 
 .activity {
-  width: 200px;
-  height: 200px;
+  float: left;
+  width: 215px;
+  height: 215px;
   border-radius: 50%;
   font-size: 20px;
   color: #fff;
