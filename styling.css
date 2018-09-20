@@ -67,3 +67,48 @@ li a{
   position: relative;
   background-color: #f7f9fb;
 }
+#firstName
+{
+    width:400px;
+    font-size:14pt;
+}
+
+#lastName
+{
+    width:400px;
+    font-size:14pt;
+}
+
+#email
+{
+    width:826px;
+    font-size:14pt;
+}
+
+#address
+{
+    width:400px;
+    font-size:14pt;
+}
+
+#phone
+{
+    width:400px;
+    font-size:14pt;
+}
+
+#birthday
+{
+    width:826px;
+    font-size:14pt;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    border-color: black;
+}
