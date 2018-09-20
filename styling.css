@@ -16,6 +16,7 @@ header{
   margin: 5px;
   margin-bottom: 10px;
   padding: 5px;
+  overflow: hidden;
   border-radius: 10px;
   background-color: #f7f9fb;
 }
@@ -40,6 +41,7 @@ li{
   width: 33%;
   border-left: solid;
 }
+
 .first{
   border-left: none;
 }
