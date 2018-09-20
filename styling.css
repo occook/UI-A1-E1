@@ -112,3 +112,14 @@ hr {
     padding: 0;
     border-color: black;
 }
+
+.activity {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  line-height: 200px;
+  text-align: center;
+  background: #8fc1e3;
+}
