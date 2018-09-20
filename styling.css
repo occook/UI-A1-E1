@@ -1,3 +1,53 @@
-p{
-  background-color: #111112;
+header{
+  border: 2px solid #5d5c61;
+  margin: 2px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #f7f9fb;
+}
+ol{
+  list-style-type: none;
+  text-align: center;
+  width: 99%;
+  padding: 0px;
+}
+.firstA{
+  border-left: none;
+  list-style-type: none;
+}
+li b{
+  float: left;
+  width: 33%;
+  border-left:solid;
+  display: block;
+  list-style-type: none;
+}
+
+.options{
+  float: right;
+  width: 11%;
+  list-style-type: none;
+  top:0;
+  margin: 0;
+}
+.first{
+ float: right;
+   width: 11%;
+  list-style-type: none;
+  top:0;
+}
+.second{
+  float: right;
+  width: 11%;
+  list-style-type: none;
+top:0;
+
+}
+
+.third{
+  float: right;
+  width: 11%;
+list-style-type: none;
+top:0;
 }
