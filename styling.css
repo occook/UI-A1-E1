@@ -1,10 +1,19 @@
 header{
-  border: 2px solid #5d5c61;
+  border: 2px solid #5085a5;
   margin: 2px;
   margin-bottom: 10px;
   padding: 5px;
   border-radius: 10px;
   background-color: #f7f9fb;
+}
+div sidebar{
+
+   padding: 5px;
+   margin-bottom: 10px;
+   padding: 5px;
+   border-radius: 10px;
+   border: 2px solid #f7f9fb;
+   margin: 2px solid #5085a5;
 }
 ol{
   list-style-type: none;
@@ -46,8 +55,8 @@ top:0;
 }
 
 .third{
-  float: right;
-  width: 11%;
+float: right;
+width: 11%;
 list-style-type: none;
 top:0;
 }
