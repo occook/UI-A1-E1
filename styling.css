@@ -12,6 +12,10 @@ div{
   border-radius: 10px;
 }
 
+p{
+    font-size: 14px;
+}
+
 header{
   border: 2px solid #5d5c61;
   margin: 5px;
@@ -159,6 +163,9 @@ float: right;
     font-size:14pt;
 }
 
+#opinions{
+  text-align: left;
+}
 hr {
     display: block;
     height: 10px;
@@ -179,4 +186,20 @@ hr {
   line-height: 200px;
   text-align: center;
   background: #8fc1e3;
+}
+
+.imgOpinion{
+  display: block;
+  width: 30%;
+  padding: 5px;
+  float: left;
+  vertical-align: middle;
+}
+.noborder{
+  border-width: 0px;
+  overflow: hidden;
+}
+h5{
+  display: block;
+  overflow: hidden;
 }
