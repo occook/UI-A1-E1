@@ -29,6 +29,7 @@ footer{
   background-color: #f7f9fb;
 }
 
+
 ul{
   list-style-type: none;
   text-align: center;
@@ -43,6 +44,7 @@ li{
 .first{
   border-left: none;
 }
+
 
 li a{
   display: block;
@@ -67,6 +69,7 @@ li a{
   position: relative;
   background-color: #f7f9fb;
 }
+
 #firstName
 {
     width:400px;
