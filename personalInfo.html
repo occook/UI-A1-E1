@@ -1,25 +1,14 @@
 <html>
   <head>
       <title>Our First WebPage</title>
-    
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="styling.css">
   </head>
 
   <body>
-
-    <header id = "header">
-      <ul>
-                <li class="firstA"><a>My First Web Page</a></li>
-                <li class = "options"></a>
-                    <li class="firstOpt"><a>Upload Video</a></li>
-                    <li class="secondOpt"><a>Add An Image</a></li>
-                    <li class="thirdOpt"><a>Your Videos</a></li>
-                </li>
-
-      </ul>
-
+    <header id="header">
+      <p>Header</p>
     </header>
 
     <div id="body">
@@ -29,7 +18,7 @@
       <img src = "https://www.tripsavvy.com/thmb/XN77_47-LyAdTUa2S4MOvWGpolw=/2126x1412/filters:fill(auto,1)/white_sand_beach-56d50c955f9b5879cc92cc5c.jpg" alt="Spongebob" width="200" height="150" align = "center">
       <header> iLuvTheBeach </header>
       <br>
-      <p1> <a href="personalInfo.html">Personal Information</a>
+      <p1> <b> Personal Information </b>
       <br>
       <br>
 
@@ -96,7 +85,33 @@
 
 
 
-      <div id="rightBox"></div>
+      <div id="rightBox"> <h1>Personal Information</h1>
+        <br><br>
+        <form>
+          <input type = "text" id = "firstName" value = "Please enter your first name here">
+          &nbsp &nbsp &nbsp
+          <input type = "text" id = "lastName" value = "Please enter your last name here">
+          <br>
+          <br>
+          <input type = "text" id = "email" value = "Please enter your email address here">
+          <br><br>
+          <input type = "text" id = "address" value = "Please your enter home address here">
+          &nbsp &nbsp &nbsp
+          <input type = "text" id = "phone" value = "Please your enter phone number here">
+          <br><br>
+          <input type = "text" id = "birthday" value = "Please enter your birthday here">
+          <br><br>
+          <p> <button type="submit">Submit Information</button> </p>
+          <br><br>
+
+        </form>
+        <h2> My Activity in the App </h2>
+        <br><br>
+          <div class="activity">POINTS: 2</div>
+          <div class="activity">LEVEL: 10</div>
+          <div class="activity">OPINIONS: 3</div>
+          <div class="activity">PHOTOS: 5</div>
+      </div>
     </div>
 
     <footer id="footer">
@@ -106,7 +121,6 @@
           <li><a href="https://www.twitter.com">Twitter</a></li>
       </ul>
     </footer>
-
   </body>
 
 </html>
