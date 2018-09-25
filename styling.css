@@ -1,3 +1,4 @@
+
 body{
   background-color: #b5b8bc;
   text-align: center;
@@ -16,9 +17,12 @@ header{
   margin: 5px;
   margin-bottom: 10px;
   padding: 5px;
-  overflow: hidden;
   border-radius: 10px;
   background-color: #f7f9fb;
+  text-align: left;
+  height: 10%;
+  overflow: hidden;
+  vertical-align: middle;
 }
 
 footer{
@@ -29,7 +33,6 @@ footer{
   border-radius: 10px;
   background-color: #f7f9fb;
 }
-
 
 ul{
   list-style-type: none;
@@ -42,15 +45,64 @@ li{
   width: 33%;
   border-left: solid;
 }
-
 .first{
   border-left: none;
 }
 
-
 li a{
   display: block;
 }
+
+ul#ulxx{
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 0;
+  float: right;
+  border-spacing: 0px 0px;
+   vertical-align: middle;
+
+}
+ul#ulxx li{
+  display: inline-block;
+
+  border: none;
+  width: 33%;
+
+}
+
+li b{
+  list-style-type: none;
+  display: inline-block;
+  border: none;
+  border-left: none;
+  float: left;
+
+}
+
+#optionsH{
+margin-top: 0;
+margin-bottom: 0;
+line-height: 4;
+padding-top: 0;
+  border-style: none;
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+  width: 50%;
+float: right;
+  display: flex;
+  padding-right: 0;
+
+}
+.firstA{
+  line-height: 4;
+  list-style-type: none;
+  border-left: none;
+  float: left;
+  margin-left: 0px
+
+}
+
 
 #body{
   display: flex;
@@ -71,40 +123,39 @@ li a{
   position: relative;
   background-color: #f7f9fb;
 }
-
 #firstName
 {
-    width:400px;
+    width:44%;
     font-size:14pt;
 }
 
 #lastName
 {
-    width:400px;
+    width:44%;
     font-size:14pt;
 }
 
 #email
 {
-    width:826px;
+    width:91%;
     font-size:14pt;
 }
 
 #address
 {
-    width:400px;
+    width:44%;
     font-size:14pt;
 }
 
 #phone
 {
-    width:400px;
+    width:44%;
     font-size:14pt;
 }
 
 #birthday
 {
-    width:826px;
+    width:91%;
     font-size:14pt;
 }
 
