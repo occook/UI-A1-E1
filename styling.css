@@ -187,7 +187,7 @@ hr { /* the settings of the last opinions box*/
   width: 30%;
   padding: 5px;
   float: left;
-  vertical-align: middle;
+  vertical-align: middle; /*aligns in the middle*/
 }
 .noborder{ /*sets the noborder class settings*/
   border-width: 0px;
