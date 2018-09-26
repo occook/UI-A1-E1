@@ -195,7 +195,7 @@ h5{ /*sets the display of the h5 group*/
   display: block;
   overflow: hidden;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){ /* These are all of the special rules for mobile. The most important are the ones that hide entire elements, they help differentiate between mobile, tablet, and desktop */
   #body{
 
   }
@@ -233,7 +233,7 @@ h5{ /*sets the display of the h5 group*/
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 768px){ /* These are all of the special rules for tablet. The most important are the ones that hide entire elements, they help differentiate between mobile, tablet, and desktop */
   #body{
 
   }
@@ -298,7 +298,7 @@ h5{ /*sets the display of the h5 group*/
   }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px){ /* These are all of the special rules for desktop. The most important are the ones that hide entire elements, they help differentiate between mobile, tablet, and desktop */
   #body{
     display: flex;
     flex-wrap: nowrap;
