@@ -195,14 +195,14 @@ h5{ /*sets the display of the h5 group*/
   display: block;
   overflow: hidden;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px){ /* sets the settings for the mobile phone*/
   #body{
 
   }
-  #leftbox{
+  #leftbox{ /* do not display the left box*/
     display: none;
   }
-  #rightbox{
+  #rightbox{ /*squeeze the right box*/
     float: none;
     width: 90%;
     overflow: hidden;
@@ -216,7 +216,7 @@ h5{ /*sets the display of the h5 group*/
   #personalInfo, #titlePersonal{
     display: none;
   }
-  #tabletTop{
+  #tabletTop{/*set the tablet object background*/
     background-color: white;
     overflow: hidden;
   }
@@ -227,13 +227,13 @@ h5{ /*sets the display of the h5 group*/
   .formEntries{
     display:block;
   }
-  #logo{
+  #logo{ /*shows the logo*/
     float: right;
     margin-top: 100px;
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px){
+@media screen and (min-width: 600px) and (max-width: 768px){ /*sets the settings for a new tablet object*/
   #body{
 
   }
@@ -261,6 +261,7 @@ h5{ /*sets the display of the h5 group*/
     float: right;
     margin-top: 100px;
   }
+  /*below displays the right box*/
   #firstName
   {
       width:91%;
@@ -298,8 +299,8 @@ h5{ /*sets the display of the h5 group*/
   }
 }
 
-@media screen and (min-width: 768px){
-  #body{
+@media screen and (min-width: 768px){ /*sets the settings for the computer*/
+  #body{ /*display the body*/
     display: flex;
     flex-wrap: nowrap;
   }
