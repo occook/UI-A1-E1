@@ -56,15 +56,6 @@ li a{
   display: block;
 }
 
-ul#ulxx{
-  list-style-type: none;
-  display: inline-block;
-  margin-top: 0;
-  float: right;
-  border-spacing: 0px 0px;
-   vertical-align: middle;
-
-}
 ul#ulxx li{
   display: inline-block;
 
@@ -212,8 +203,7 @@ h5{
 
   }
   #leftbox{
-    float: none;
-    width: 90%
+    display: none;
   }
   #rightbox{
     float: none;
@@ -222,6 +212,27 @@ h5{
   }
   #optionsH{
     display: none;
+  }
+  #optionsTablet{
+    display: none;
+  }
+  #personalInfo, #titlePersonal{
+    display: none;
+  }
+  #tabletTop{
+    background-color: white;
+    overflow: hidden;
+  }
+  .tabletOptions{
+    display: none;
+  }
+
+  .formEntries{
+    display:block;
+  }
+  #logo{
+    float: right;
+    margin-top: 100px;
   }
 }
 
@@ -253,6 +264,41 @@ h5{
     float: right;
     margin-top: 100px;
   }
+  #firstName
+  {
+      width:91%;
+  }
+  #lastName
+  {
+      width:91%;
+  }
+  #email
+  {
+      width:91%
+  }
+  #address
+  {
+      width:91%
+  }
+  #phone
+  {
+      width:91%;
+  }
+  #birthday
+  {
+      width:91%;
+  }
+  ul#ulxx{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 0;
+    float: right;
+    border-spacing: 0px 0px;
+     vertical-align: middle;
+  }
+  #optionsMobile{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -265,5 +311,17 @@ h5{
   }
   #tabletTop{
     display:none;
+  }
+  ul#ulxx{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 0;
+    float: right;
+    border-spacing: 0px 0px;
+     vertical-align: middle;
+
+  }
+  #optionsMobile{
+    display: none;
   }
 }
