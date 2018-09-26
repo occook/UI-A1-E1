@@ -1,92 +1,89 @@
 
-body{
-  background-color: #b5b8bc;
-  text-align: center;
-  background-color: #88e072;
+body{ /* describes the properties of the whole website */
+  background-color: #b5b8bc; /* defined default background color*/
+  text-align: center; /* sets default text-align*/
+  background-color: #88e072; /*overwrites old background color*/
 }
 
-div{
-  border: 2px solid #5d5c61;
-  margin: 5px;
-  padding: 5px;
+div{ /* sets default div properites*/
+  border: 2px solid #5d5c61; /*default border size and color to 2px and black*/
+  margin: 5px; /*default margins between a div and another element*/
+  padding: 5px;/*padding between the border*/
   border-radius: 10px;
 }
 
-p{
+p{ /*sets default text font size*/
     font-size: 14px;
 }
 
-header{
-  border: 2px solid #5d5c61;
-  margin: 5px;
-  margin-bottom: 10px;
+header{/*sets default properties for header elements*/
+  border: 2px solid #5d5c61; /* defined default background color*/
+  margin: 5px;/*default margins between header elements and others */
+  margin-bottom: 10px; /*margin between header and other elements*/
   padding: 5px;
   border-radius: 10px;
-  background-color: #f7f9fb;
-  text-align: left;
-  height: 10%;
-  overflow: hidden;
+  background-color: #f7f9fb; /*background color of header*/
+  text-align: left; /*aligns header text to the left*/
+  height: 10%; /*header is 10% of the rest of its page*/
+  overflow: hidden; /*hides elements that overflow*/
   vertical-align: middle;
 }
 
-footer{
-  border: 2px solid #5d5c61;
-  margin: 5px;
+footer{/*sets default footer properties*/
+  border: 2px solid #5d5c61; /*sets default border size and color */
+  margin: 5px; /*sets default margin size*/
   padding: 5px;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #f7f9fb;
+  overflow: hidden; /*hides elements that overflow their borders*/
+  border-radius: 10px; /*10px in between the border*/
+  background-color: #f7f9fb; /*background default of footer and its elements*/
 }
 
-ul{
-  list-style-type: none;
-  text-align: center;
-  width: 99%;
-  padding: 0px;
+ul{/*sets default properties for unordered lists*/
+  list-style-type: none; /*uls will have no list styles*/
+  text-align: center; /*sets default text align to center*/
+  width: 99%; /*take up 99% of the space as a default*/
+  padding: 0px; /*no padding between the border and the element*/
 }
-li{
-  float: left;
-  width: 33%;
-  border-left: solid;
+li{/*sets default properties for list elements*/
+  float: left;/*always move to the left of the outer box*/
+  width: 33%; /*take up 1/3 of the space for each li element*/
+  border-left: solid; /*creates a solid border to the left of the element*/
 }
-.first{
-  border-left: none;
-}
-
-li a{
-  display: block;
+.first{ /*sets the properties of the "first" textbox*/
+  border-left: none; /*sets to no borders*/
 }
 
-ul#ulxx{
-  list-style-type: none;
+li a{/*for all list element a's*/
+  display: block; /*display in block format*/
+}
+
+ul#ulxx{/*sets properties of the ul "ulxx" and its elements*/
+  list-style-type: none; /*no list type*/
+  display: inline-block; /*keep the elements together*/
+  margin-top: 0; /*set the top margin to 0*/
+  float: right; /*floats the ulxx to the right*/
+  border-spacing: 0px 0px; /* the border will only be 0px on all sizes*/
+   vertical-align: middle; /* sets the vertical default to the middle */
+
+}
+ul#ulxx li{ /*for all list elements of the ul "ulxx" sets its properties*/
   display: inline-block;
-  margin-top: 0;
-  float: right;
-  border-spacing: 0px 0px;
-   vertical-align: middle;
-
-}
-ul#ulxx li{
-  display: inline-block;
-
   border: none;
-  width: 33%;
-
+  width: 33%; /*li element of ulxx will take up 1 /3 of its space*/
 }
 
-li b{
+li b{ /* li b element will have the following defaults*/
   list-style-type: none;
   display: inline-block;
   border: none;
   border-left: none;
   float: left;
-
 }
 
-#optionsH{
+#optionsH{/*the settings for the optionsH div */
 margin-top: 0;
 margin-bottom: 0;
-line-height: 4;
+line-height: 4; /*line-height is the relative size of the div box*/
 padding-top: 0;
   border-style: none;
   list-style-type: none;
@@ -96,77 +93,74 @@ padding-top: 0;
 float: right;
   display: flex;
   padding-right: 0;
-
 }
-.firstA{
+.firstA{/*sets settings of the title bar */
   line-height: 4;
   list-style-type: none;
   border-left: none;
   float: left;
   margin-left: 0px
-
 }
 
-
-#body{
+#body{ /*sets new settings of the body to have a flex wrap*/
   display: flex;
   flex-wrap: nowrap;
   background-color: #8fc1e3;
 }
 
-#leftBox{
+#leftBox{ /*left box settings */
   float: left;
   width: 34%;
   position: relative;
   background-color: #f7f9fb;
 }
 
-#rightBox{
+#rightBox{ /default rightbox settings*/
   float: right;
   width: 66%;
   position: relative;
   background-color: #f7f9fb;
 }
-#firstName
+#firstName /*the settings of where you put the first name*/
 {
     width:44%;
     font-size:14pt;
 }
 
-#lastName
+#lastName /*default settings of last name */
 {
     width:44%;
     font-size:14pt;
 }
 
-#email
+#email /*sets the email box*/
 {
     width:91%;
     font-size:14pt;
 }
 
-#address
+#address /*sets the address box*/
 {
     width:44%;
     font-size:14pt;
 }
 
-#phone
+#phone /*sets the phone number box*/
 {
     width:44%;
     font-size:14pt;
 }
 
-#birthday
+#birthday/*sets the birthday box to take up 91% of the area*/
 {
     width:91%;
     font-size:14pt;
 }
 
-#opinions{
+#opinions{ /*aligns the opinions box*/
   text-align: left;
 }
-hr {
+hr { /* the settings of the last opinions box*/
     display: block;
     height: 10px;
     border: 0;
@@ -176,7 +170,7 @@ hr {
     border-color: black;
 }
 
-.activity {
+.activity { /*sets the activity box*/
   float: left;
   width: 215px;
   height: 215px;
@@ -188,18 +182,18 @@ hr {
   background: #8fc1e3;
 }
 
-.imgOpinion{
+.imgOpinion{ /*the image in the opion box settings*/
   display: block;
   width: 30%;
   padding: 5px;
   float: left;
   vertical-align: middle;
 }
-.noborder{
+.noborder{ /*sets the noborder class settings*/
   border-width: 0px;
   overflow: hidden;
 }
-h5{
+h5{ /*sets the display of the h5 group*/
   display: block;
   overflow: hidden;
 }
