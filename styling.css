@@ -196,9 +196,6 @@ h5{ /*sets the display of the h5 group*/
   overflow: hidden;
 }
 @media screen and (max-width: 600px){
-  body{
-    background-color: red;
-  }
   #body{
 
   }
